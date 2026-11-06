@@ -1,0 +1,17 @@
+{
+    "name": "express-products-api",
+    "version": "1.0.0",
+    "description": "RESTful API produk menggunakan Express.js",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "postinstall": "prisma skills sync || exit 0"
+    },
+    "dependencies": {
+        "@prisma/client": "^6.19.3",
+        "express": "^4.19.2"
+    },
+    "devDependencies": {
+        "prisma": "^6.19.3"
+    }
+}
