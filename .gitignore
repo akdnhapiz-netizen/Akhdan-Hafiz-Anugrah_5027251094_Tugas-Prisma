@@ -10,5 +10,7 @@ node_modules/
 .cursor/
 .devin/
 .vscode/
+.postman/
+postman/
 
 npm-debug.log
